@@ -14,7 +14,9 @@
     "@headlessui/react": "^1.6.2",
     "@heroicons/react": "^1.0.6",
     "@portabletext/react": "^1.0.6",
+    "@sanity/base": "^2.30.5",
     "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/core": "^2.30.5",
     "@sanity/image-url": "^1.0.1",
     "@tailwindcss/line-clamp": "^0.4.0",
     "@tailwindcss/typography": "^0.5.2",
@@ -24,9 +26,10 @@
     "next-sanity-image": "^3.2.1",
     "next-seo": "^5.4.0",
     "next-themes": "^0.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
     "react-hook-form": "^7.31.2",
+    "styled-components": "^5.3.5",
     "use-web3forms": "^1.2.1"
   },
   "devDependencies": {
