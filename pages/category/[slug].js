@@ -12,11 +12,14 @@ const Category = ({ posts, siteConfig }) => {
     <Layout {...siteConfig}>
       <Container>
         <h1 className="text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl dark:text-white">
-          <CategoryLabel categories={posts[0].categories} />
+          {posts?.length > 0 && (
+            <CategoryLabel categories={posts[0].categories} />
+          )}
         </h1>
         <div className="text-center">
           <p className="mt-2 text-lg">
-            {posts[0].categories[0].description}
+            {posts?.length > 0 &&
+              posts[0]?.categories[0]?.description}
           </p>
         </div>
         <div className="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3 ">
