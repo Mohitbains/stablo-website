@@ -58,7 +58,8 @@ export async function getStaticProps(context, preview = false) {
       posts,
       siteConfig: { ...config },
       preview
-    }
+    },
+    revalidate: 10
   };
 }
 
